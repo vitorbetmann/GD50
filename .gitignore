@@ -1,0 +1,56 @@
+# === Ignore all build folders across child directories ===
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/Makefile
+**/*.cmake
+**/install_manifest.txt
+
+# === Ignore IDE or editor-specific files ===
+**/*.code-workspace
+**/*.sublime-*
+**/.vscode/
+**/.DS_Store
+
+# === Ignore temp, log, and backup files ===
+**/*.log
+**/*.tmp
+**/*.bak
+**/*.swp
+
+# === Ignore compiled artifacts ===
+**/*.out
+**/*.o
+**/*.a
+**/*.so
+**/*.dylib
+**/*.exe
+
+# === OPTIONAL: Ignore all CMakeLists.txt files ===
+**/CMakeLists.txt
+
+# === EXPLICITLY KEEP your source files and assets ===
+!**/*.c
+!**/*.h
+!**/*.cpp
+!**/*.hpp
+!**/*.frag
+!**/*.vert
+!**/*.glsl
+
+!**/*.png
+!**/*.jpg
+!**/*.jpeg
+!**/*.bmp
+!**/*.ogg
+!**/*.wav
+!**/*.mp3
+
+!**/*.ttf
+!**/*.txt
+!**/*.csv
+!**/*.json
+!**/*.ini
+!**/*.xml
+!**/*.shader
+.fake
