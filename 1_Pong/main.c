@@ -28,9 +28,6 @@ void game_run()
 {
     while (!WindowShouldClose())
     {
-        // handle input
-        // update
-        // draw
         draw();
     }
 }
