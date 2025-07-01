@@ -5,8 +5,8 @@
 ## Project Details
 
 - Recreated classic games in C to deepen understanding of low-level programming and game architecture, triggering the development of the SMILE Game Engine.
-- Gained hands-on experience integrating **C**, **Python**, **CMake**, and **shell scripting**.
-- Deployed playable versions online via **WebAssembly** (see links below).
+- Gained hands-on experience integrating multiple languages and tools, including C, Python, CMake, and shell scripting.
+- Made all games playable online via WebAssembly builds, see below.
 
 ---
 
@@ -16,21 +16,20 @@
 
 A fully playable Pong clone with build automation support.
 
-- Wrote a **Python script** that auto-generates a `.cmake` file listing all `.c` source files.
-- This script is included in `CMakeLists.txt` to keep build configuration clean and up-to-date.
+- Created a Python script to generate a .cmake file listing all .c files, which is included in CMakeLists.txt to set the executable sources.
 
-**Play:** [itch.io](https://vitorbetmann.itch.io/pong)  
-**Repo:** [GitHub Repo](https://github.com/vitorbetmann/pong)
+[itch.io](https://vitorbetmann.itch.io/pong)  
+[Repo](https://github.com/vitorbetmann/pong)
 
 ---
 
 ### 🐤 Flappy Bird
 
-- Designed a **state machine** using **function pointers** to promote modular, readable, and scalable code. *(See SMILE Game Engine)*
-- Built a **custom queue** with O(1) enqueue/dequeue operations for managing pipes.
-- Applied a **tracked iteration** optimization so the bird only checks collision with the next pipe, reducing per-frame computation.
+- Designed a state machine architecture using function pointers to maintain modular, readable, and scalable code. (See SMILE Game Engine).
+- Built a custom queue to manage pipes with a O(1) enqueue and dequeue operations.
+- Applied tracked iteration optimization so the Bird only checks collision with the next pipe, reducing per-frame computation.
 
-**Play:** [itch.io](https://vitorbetmann.itch.io/fifty-bird)  
-**Repo:** [GitHub Repo](https://github.com/vitorbetmann/fifty_bird)
+[itch.io](https://vitorbetmann.itch.io/fifty-bird)  
+[Repo](https://github.com/vitorbetmann/fifty_bird)
 
 ---
